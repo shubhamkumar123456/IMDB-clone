@@ -1,0 +1,38 @@
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  color: white;
+  font-size: x-large;
+}
+
+.input {
+  height: 2rem;
+  border-radius: 10px;
+}
+.input :hover {
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.btn {
+  padding: 0.5rem;
+  margin-left: 0.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.search-container{
+display: flex;
+overflow-x: auto;
+overflow-y: hidden;
+z-index: 1;
+}
+
+@media (max-width: 631px){
+  .search_box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin:auto
+  }
+}
