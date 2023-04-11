@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div>
+      <div className="Home">
         <Carousel
           showThumbs={false}
           autoPlay={true}

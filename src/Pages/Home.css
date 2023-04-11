@@ -35,6 +35,30 @@
     margin-right:2rem;
 }
 
-@media (max-width: 631px){
-
+@media (max-width: 560px){
+.carasooul-image{
+    width:90%;
+    margin: auto;
+}
+.carasooul-image img{
+    width: 100%;   
+}
+.movie-title{
+    font-size: 2rem;
+}
+.movie-overview{
+    left: 0;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-right: 1.5rem;
+}
+}
+@media (max-width: 400px){
+    .movie-title{
+        font-size: 1.3rem;
+    }
+    .movie-overview{
+        font-weight: 100;
+    }
 }

@@ -36,3 +36,8 @@ z-index: 1;
     margin:auto
   }
 }
+@media (max-width: 358px){
+  .search_box form{
+    width:90%
+  }
+}
