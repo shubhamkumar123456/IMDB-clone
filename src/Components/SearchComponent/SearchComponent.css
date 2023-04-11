@@ -36,8 +36,8 @@ z-index: 1;
     margin:auto
   }
 }
-@media (max-width: 358px){
+@media (max-width: 408px){
   .search_box form{
-    width:90%
+    width:80%
   }
 }

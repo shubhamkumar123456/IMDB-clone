@@ -45,13 +45,19 @@
 }
 .movie-title{
     font-size: 2rem;
+    margin-right:2rem ;
 }
 .movie-overview{
-    left: 0;
+    position: relative;
+    right: 0.5rem;
     width: 80%;
     text-align: center;
     margin: auto;
     padding-right: 1.5rem;
+}
+.movie-release-date{
+    display: flex;
+    flex-direction: column;
 }
 }
 @media (max-width: 400px){
